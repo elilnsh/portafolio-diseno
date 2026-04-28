@@ -83,6 +83,7 @@ section {
     z-index: 1000;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombra para que resalte sobre el fondo */
     width: 100%;
+    border-bottom: 5px solid #000000;
 }
 
 .contenedor-menu {
@@ -104,7 +105,7 @@ section {
 .enlaces {
     list-style: none;
     display: flex;
-    gap: 30px; /* Espacio entre botones */
+    gap: 80px; /* Espacio entre botones */
     margin: 0;
 }
 
